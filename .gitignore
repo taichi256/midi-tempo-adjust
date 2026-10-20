@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+# Rust ビルド生成物
+*/target/
+# アプリバンドル（バイナリを含む）
+midi_head_align/*.app/
+# 個人バックアップ用スクリプト（NAS 情報を含むため公開しない）
+backup.sh
+backup.command
+# 著作権のある元楽曲データ（公開しない）
+yobukoe_*.mid
+beat_map.csv
